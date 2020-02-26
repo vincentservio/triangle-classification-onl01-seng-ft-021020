@@ -25,7 +25,7 @@ class Triangle
      end
   end
 end
-class TriangleError < StandardError
+class Triangle::TriangleError < StandardError
   def message
     puts "not a Triangle"
   end
