@@ -24,9 +24,9 @@ class Triangle
        self.kind = :scalene
      end
   end
-end
-class Triangle::TriangleError < StandardError
+  class TriangleError < StandardError
   def message
     puts "not a Triangle"
   end
+end
 end
